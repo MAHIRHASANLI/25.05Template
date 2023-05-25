@@ -1,0 +1,74 @@
+.Divs {
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+.Esasd {
+  width: 45%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 90px;
+}
+.hhh {
+  text-align: center;
+  position: relative;
+  font-size: 36px;
+  color: #292929;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  position: relative;
+  padding-top: 100px;
+}
+.hhh::after {
+  content: "";
+  width: 70px;
+  height: 3px;
+  background-color: red;
+  position: absolute;
+  left: 45%;
+  bottom: -10px;
+}
+.ppp {
+  text-align: center;
+  font-size: 16px;
+  margin: 60px auto 0 auto;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+  color: #6f6f6f;
+}
+.Img {
+  transition: 0.4s linear;
+}
+.Cardd:hover .Img {
+  transform: scale(1.2);
+  filter: grayscale(100%);
+}
+.imgpp {
+  display: block;
+  line-height: 35px;
+  text-transform: none;
+  color: #292929;
+  margin: 40px 0 15px 0;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: inherit;
+  transition: 0.3s;
+  font-weight: 700;
+}
+.imgpp:hover {
+  color: red;
+}
+.PPP {
+  color: #292929;
+  font-size: 15px;
+  margin-bottom: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+  color: #6f6f6f;
+  font-size: 14px;
+  line-height: 1.42857143;
+}

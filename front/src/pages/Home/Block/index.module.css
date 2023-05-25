@@ -1,0 +1,108 @@
+.Divvv{
+    width: 70%;
+    margin: 0 auto;
+}
+.Esasd{
+width: 45%;
+margin: 0 auto;
+text-align: center;
+padding-bottom: 110px;
+
+}
+.hhh{
+    text-align: center;
+    position: relative;
+    font-size: 36px;
+    color: #292929;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: inherit;
+position: relative;
+padding-top: 100px;
+}
+.hhh::after{
+    content: "";
+    width: 70px;
+    height: 3px;
+    background-color: red;
+    position: absolute;
+    left: 45%;
+    bottom:-10px ;
+}
+.ppp{
+    text-align: center;
+    font-size: 16px;
+    /* width: 75%; */
+    margin: 60px auto 0 auto;
+    /* display: block; */
+    /* margin-block-start: 1em; */
+    /* margin-block-end: 1em; */
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    color: #6f6f6f;
+}
+.Cardd{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.Cardd:hover .Daire{
+background-color: red;
+color: white;
+}
+.Daire{
+    width: 110px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    border-radius: 50%;
+    align-items: center;
+}
+.Button{
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    border:1px solid red;
+    width: 130px;
+    line-height: 45px;
+    color: #292929;
+    border-width: 1px;
+    margin-top: 22px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    color: #6f6f6f;
+    font-size: 14px;
+    transition: .4s;
+}
+.Button:hover{
+    background-color: red;
+    color: white;
+}
+.hh3{
+    text-decoration: none;
+    outline: none;
+    color: #292929;
+    margin: 35px 0 20px 0;
+    transition: all .3s ease-in-out;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+.pp3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    color: #6f6f6f;
+    font-size: 14px;
+    line-height: 26px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    text-align: center;
+
+}
